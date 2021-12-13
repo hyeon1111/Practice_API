@@ -10,4 +10,9 @@ public class Main {
 	public String address() {
 		return "address";
 	}
+	
+	@RequestMapping("/kakaoMap")
+	public String kakaoMap() {
+		return "kakaoMap";
+	}
 }
